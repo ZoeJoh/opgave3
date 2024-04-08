@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+}
+
+.desktop{
+    display: none;
+}
+
+.button {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+
+@media screen and (min-width: 992px){
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}
